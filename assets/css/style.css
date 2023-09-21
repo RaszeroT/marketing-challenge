@@ -51,12 +51,12 @@ p {
     font-size: 16px;
 }
 
-/* TODO: Added accessibility description to digital-marketing-meeting */
+/* Added accessibility description to digital-marketing-meeting-img via alt= */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg" alt=" 4 people around a table in a meeting. There are papers spread across the table and a laptop. Everyone looks intruiged and invested in the discussion");
     background-size: cover;
     background-position: center;
 }
@@ -171,6 +171,7 @@ p {
     color: #ffffff;
 }
 
+/* ASK: Can lines 175-185 somehow be merged??? */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -183,6 +184,7 @@ p {
     max-height: 200px;
 }
 
+/* ASK: Can lines 188-201 somehow be merged??? */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
