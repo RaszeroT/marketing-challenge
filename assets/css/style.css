@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Changed all <.header div> to <.header nav> because I wanted to see what happens and I remember header bar as a navigation bar. Obviously changed index.html header from <div> to <nav> also.. everything seems fine.. */
+/* Changed all <.header div> to <.header nav> because I wanted to see what happens and I remember header bar as a navigation bar. Changed index.html header from <div> to <nav> */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,12 +51,13 @@ p {
     font-size: 16px;
 }
 
-/* Added accessibility description to digital-marketing-meeting-img via alt= */
+/* Cover picture doesn't add any content or extra information relative to webpage, Leaving <alt=> description out to create less busy page for screen readers */
+
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url=("../images/digital-marketing-meeting.jpg" alt=" 4 people around a table in a meeting. There are papers spread across the table and a laptop. Everyone seems intruiged and invested in the discussion");
+    background-image: url("../images/digital-marketing-meeting.jpg") ;
     background-size: cover;
     background-position: center;
 }
@@ -87,62 +88,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Lines 97-105 seem unessiscary if <div> class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. Code not deleted but commented out */
+/* if <div> class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. Code not deleted but commented out */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
-/* Lines 115-123 seem unessiscary if <div> class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. Code not deleted but commented out */
+/* if <div> class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. Code not deleted but commented out */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
-/* Lines 134-144 seem unessiscary if <div> class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. Code not deleted but commented out */
+/* if <div> class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. Code not deleted but commented out */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
 
 /* struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
 .search-engine-optimization,
@@ -156,67 +119,20 @@ p {
     color: #ffffff;
 }
 
-/* lines 161-177 no longer neccessary */
-/*
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-
-/* ASK: Can lines 175-185 somehow be merged??? 
-struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
+/* struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/* lines 184-190 no longer necessary */
-/*
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-/* ASK: Can lines 188-201 somehow be merged???
-struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
+/* struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* lines 203-211 no longer necessary */
-/*
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
 
 .footer {
     padding: 30px;
