@@ -56,7 +56,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url ("../images/digital-marketing-meeting.jpg" alt=" 4 people around a table in a meeting. There are papers spread across the table and a laptop. Everyone seems intruiged and invested in the discussion");
+    background-image: url=("../images/digital-marketing-meeting.jpg" alt=" 4 people around a table in a meeting. There are papers spread across the table and a laptop. Everyone seems intruiged and invested in the discussion");
     background-size: cover;
     background-position: center;
 }
@@ -144,7 +144,10 @@ p {
 }
 */
 
-.search-engine-optimization {
+/* struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +156,8 @@ p {
     color: #ffffff;
 }
 
+/* lines 161-177 no longer neccessary */
+/*
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -170,12 +175,19 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-/* ASK: Can lines 175-185 somehow be merged??? */
-.search-engine-optimization img {
+
+/* ASK: Can lines 175-185 somehow be merged??? 
+struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
     max-height: 200px;
 }
 
+/* lines 184-190 no longer necessary */
+/*
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -183,13 +195,18 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
-/* ASK: Can lines 188-201 somehow be merged??? */
-.search-engine-optimization h2 {
+*/
+/* ASK: Can lines 188-201 somehow be merged???
+struggled with creating a class in index.html, however, seperating with <,> in style.css seems to work*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* lines 203-211 no longer necessary */
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -199,6 +216,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
