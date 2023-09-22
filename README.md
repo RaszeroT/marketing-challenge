@@ -23,8 +23,8 @@ Working on this code file was a great experience for me to be able to tinker wit
 ## Code Edits to Style.css
 
 <ul>
-<li> Changed all //.header div// to //.header nav// because I wanted to see what happens and I remember header bar as a navigation bar. Changed index.html header from //div// to //nav// </li>
-<li> Cover picture doesn't add any content or extra information relative to webpage, Leaving //alt=>// description out to create less busy page for screen readers </li>
+<li> Changed all //.header div// to //.header nav// to represent navigation bar. Changed style.css header from //div// to //nav// so css would match </li>
+<li> Back-ground image doesn't add any content or extra information relative to webpage, Leaving //alt=>// description out to create less "busy" page for screen readers </li>
 <li> //div// class is changed in index.html from benefit-brand, and cost to all resemble benefit-lead as they're identical. </li>
 <li> struggled with creating a semantic in index.html, however, seperating with <,> in style.css works to consolidate code </li>
 </ul>
