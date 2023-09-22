@@ -29,11 +29,11 @@ Working on this code file was a great experience for me to be able to tinker wit
 </ul>
 
 
-## Link to live site
+## Link to Live Site
 
 https://raszerot.github.io/marketing-challenge/#search-engine-optimization
 
-## Image of webpage
+## Image of Webpage
 
 <img src="assets/images/html-raszeroT-marketing-challenge.png">
 
