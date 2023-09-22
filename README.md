@@ -9,6 +9,7 @@ Working on this code file was a great experience for me to be able to tinker wit
 ## Code Edits to Index.html
 
 <ul>
+<li> Changed all //div// to semantic in logical order </li>
 <li> Updated website title to more consise and descriptive title </li>
 <li> Added accessibility discription of search-engine-optimization </li>
 <li> Added accessability description for online-reputation-management.jpg </li>
